@@ -1,8 +1,9 @@
 # RTL Design & Verification Stage
 ---
 ## RTL Design
-- Design of the Ascon Core - completed by Lakshmi
-- Design of the Ascon Interface ( SPI + AXI Lite ) - in progress
+- Design of the Ascon Core, AXI Master & Slave - completed by Lakshmi
+- Design of SPI completed 
+- Verification of SPI - Librelane verification in progress (Tested & verified in Vivado)
 
 ## Verification of the Design.
 
