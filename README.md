@@ -27,7 +27,7 @@ The accelerator is built in synthesizable Verilog and taken through a complete o
 > *Repository structure is being finalized. RTL, testbench, and ORFS flow directories will be organized into dedicated folders before tape-out.
 ```
 
-## Architecture
+## Architecture & Design (Lakshmi)
 
 The design consists of three main blocks:
 
@@ -40,7 +40,7 @@ The design consists of three main blocks:
 <img width="1340" height="967" alt="image" src="https://github.com/user-attachments/assets/19bc8b5f-9126-45ad-8db6-b8464ad2b238" />
 
 
-## Design Verification
+## Design Verification (Yashvardhan)
 Functional verification of the ASCON core is performed using Cocotb (a Python-based verification framework) with Icarus Verilog as the simulator. A Python golden reference model generates expected outputs for comparison against the RTL.
 
 The verification plan covers:
@@ -51,8 +51,8 @@ Full roundtrip tests — Encrypt-then-decrypt cycles confirming plaintext recove
 Authentication fault injection — Tampered ciphertext and tampered tag inputs to verify that the core correctly rejects forgeries, validating resistance to reverse-engineering of the ASCON state.
 Randomized testing — Cocotb-driven random key/nonce/AD/plaintext generation to increase functional coverage across a wide input space.
 
-## Physical Design — OpenROAD RTL-to-GDSII Flow
-
+## Physical Design — OpenROAD RTL-to-GDSII Flow (ORFS - Tarun, Librelane - Yashvardhan)
+## ORFS:
 ### Development Environment
 
 | Component           | Details                              |
@@ -159,9 +159,9 @@ To be added
 
 | Member        | Role                              |
 |---------------|-----------------------------------|
-| Lakshmi       | RTL Core Design & Architecture  + RTL Design of Interface + Team Management  |
-| Yashvardhan   | Design Verification +  Open Road Flow via ORFS + Documentation    |
-| Tarun         | RTL Design + Open Road Flow via ORFS    |
+| Lakshmi       | RTL Core Design & Architecture + RTL Design of Interface + Team Management  |
+| Yashvardhan   | Design Verification + Post-Synth Verification + PD via Librelane + Documentation    |
+| Tarun         | RTL Design + PD via ORFS   |
 | Harshitha     | AXI-Lite Wrapper Design   |
 
 
