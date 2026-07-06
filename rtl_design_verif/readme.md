@@ -510,4 +510,13 @@ INFO: Results file: /home/runner/sim_build/results.xml
 
 ```
 
+## NIST Based Vectors for verification
 
+We recieved a great comment from reviewer `Luqman` in proposal reviewer round to use Official NIST Vectors for verification.
+To add this into our verification workflow, we found NIST uses the NIST ACVP (Automated Cryptographic Validation Protocol) which is relevant to this. 
+Upon further research, we found:  https://github.com/itzmeanjan/ascon/blob/master/kats/ascon_aead128.kat \
+it has 1089 KATs, (known-answer-tests) based on the aforementioned ACVP, so we used this to just test code again and it passed all 1089 cases.
+
+#### Log screenshot:
+<img width="717" height="392" alt="image" src="https://github.com/user-attachments/assets/c9c0253d-2d6f-46eb-a351-256af4330145" />
+---
