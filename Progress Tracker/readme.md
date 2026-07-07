@@ -12,7 +12,7 @@
 | ASCON Core (Design + Arch) | Jun 4, 2026 | Lakshmi & Tarun | ✅ Completed | AEAD128a variant |
 | ASCON Core Design Verification (RTL) | Jun 9, 2026 | Yash | ✅ Completed | Verilog TB + py based CocoTB |
 | AXI-LITE Slave & Master (RTL) | Jun 30, 2026 | Lakshmi | ✅ Completed | - |
-| SPI Slave (RTL) | Jun 30, 2026 onwards | Lakshmi | 🔄 In Progress | - |
+| SPI Slave (RTL) | Jun 30, 2026 onwards | Lakshmi | ✅ Completed | - |
 | NIST-Based KAT Verification | Jul 6, 2026 | Yash | ✅ Completed | Added as per reviewer comment (1089 cases passed) |
 
 ## 3. Synthesis (Running & Verification)
