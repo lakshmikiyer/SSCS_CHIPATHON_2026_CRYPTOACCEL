@@ -17,13 +17,14 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lakshmikiyer/SSCS_CHIPATHON_2026_CRYPTOACCEL)
  
-
+---
 ## Overview
 
 CryptoAccel team is proposing a lightweight hardware accelerator implementing the **ASCON-AEAD128a** authenticated encryption algorithm, standardized by NIST (SP 800-232). It is designed for resource-constrained applications such as IoT security, secure boot, and root-of-trust.
 
 The accelerator is built in synthesizable Verilog and taken through a complete open-source RTL-to-GDSII flow using Open-source toolchain targeting the **GlobalFoundries 180nm (GF180MCU)** process.
 
+---
 ## Repository Structure
 
 ```
@@ -36,10 +37,9 @@ The accelerator is built in synthesizable Verilog and taken through a complete o
 ├── LICENSE
 └── README.md
 ```
-```
-> Repository structure is being finalized. RTL, testbench, and OpenLane flow directories will be organized into dedicated folders before tape-out.
-```
+<img width="2048" height="1473" alt="image" src="https://github.com/user-attachments/assets/420a6632-c3ed-4a0d-82ad-7331dc9077f0" style="width:50%;"/>
 
+---
 ## Architecture & Design 
 
 The design consists of three main blocks:
