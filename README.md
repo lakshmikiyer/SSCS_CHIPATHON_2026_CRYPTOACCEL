@@ -82,7 +82,7 @@ For this tapeout, we are using an open-source toolchain to complete the RTL-to-G
 - Toolchain: LibreLane, a Python-based RTL-to-GDSII flow orchestrating Yosys, OpenROAD, and Magic, run via the IIC-OSIC-TOOLS Docker container (PDK: gf180mcuD).
 - Setup: Docker Desktop + KLayout + Xming (VcXsrv) for GUI passthrough; flow launched via `librelane config.yaml --pdk gf180mcuD --pdk-root /foss/pdks --run-tag <tag>.`
 - Current flow conditions: 50 MHz clock (20 ns period), 60% target density, 1100×1100 µm die.
-- Progress: We have completed a full 80-stage run (~43 minutes) with clean DRC, LVS, antenna, and PDN signoff, and passing timing across nominal and fast corners. We are continuing to refine routing and clocking for full PVT corner closure, with additional prototyping
+- Progress (on ASCON core) : We have completed a full 80-stage run (~43 minutes) with clean DRC, LVS, antenna, and PDN signoff, and passing timing across nominal and fast corners. We are continuing to refine routing and clocking for full PVT corner closure, with additional prototyping.
 
 `Full Documentation`: https://github.com/lakshmikiyer/SSCS_CHIPATHON_2026_CRYPTOACCEL/blob/main/physical_design/readme.md
 
