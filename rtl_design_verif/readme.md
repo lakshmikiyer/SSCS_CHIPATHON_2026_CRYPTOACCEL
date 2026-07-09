@@ -5,7 +5,18 @@
 - Design of SPI completed 
 - Verification of SPI - Librelane verification in progress (Tested & verified in Vivado)
 
-## Verification of the Design.
+The design consists of three main blocks:
+
+1. **ASCON Core (`ascon_core_adpt_encdec`)** — Implements the full ASCON-AEAD128a state machine: initialization, associated data processing, plaintext/ciphertext processing, finalization, and tag generation/verification. Supports both encryption and decryption modes.
+
+2. **ASCON Round (`ascon_round`)** — A single purely combinational round of the ASCON permutation, comprising the round constant addition (pC), the 5-bit S-box layer (pS), and the linear diffusion layer (pL).
+
+3. **AXI-Lite Wrapper (`ascon_axi_wrapper`)** — Provides a standard AXI4-Lite slave interface for system-level integration. A CPU or SoC master writes key, nonce, associated data, and plaintext through memory-mapped registers, and reads back ciphertext and the authentication tag.
+
+<img width="1340" height="967" alt="image" src="https://github.com/user-attachments/assets/19bc8b5f-9126-45ad-8db6-b8464ad2b238" style="width:70%;"/>
+
+
+## Verification of the Design
 
 ### Verification of the ASCON Core
 
