@@ -86,20 +86,32 @@ For this tapeout, we are using an open-source toolchain to complete the RTL-to-G
 
 `Full Documentation`: https://github.com/lakshmikiyer/SSCS_CHIPATHON_2026_CRYPTOACCEL/blob/main/physical_design/readme.md
 
+---
 ## Team
 
 | Member        | Role                              |
 |---------------|-----------------------------------|
-| Lakshmi       | RTL Core Design & Architecture + RTL Design of Interface + Team Management  |
-| Yashvardhan   | Design Verification + Post-Synth Verification + PD via Librelane + Documentation + GitHub VCS and Docs  |
-| Tarun         | RTL Design + PD via ORFS   |
-| Harshitha     | AXI-Lite Wrapper Design   |
+| Lakshmi Iyer       | RTL Core Design & Architecture + RTL Design of Interface + Team Management  |
+| Yashvardhan Singh  | Design Verification + Post-Synth Verification + PD via Librelane + Documentation + GitHub VCS and Docs  |
+| Tarun R S       | RTL Design + PD via ORFS   |
+| Harshitha Shetty    | AXI-Lite Wrapper Design   |
 
+---
 
 ## References
-
 - [NIST SP 800-232 — ASCON Standard](https://csrc.nist.gov/pubs/sp/800/232/final)
 - [ASCON Official Website](https://ascon.iaik.tugraz.at/)
 - [OpenROAD Flow Scripts (ORFS)](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)
+- [OpenROAD Project](https://theopenroadproject.org)
 - [GlobalFoundries GF180MCU PDK](https://github.com/google/gf180mcu-pdk)
- 
+- [IIC-OSIC-TOOLS: Open-Source IC Design Environment](https://github.com/iic-jku/IIC-OSIC-TOOLS)
+- [Robert Primas — ASCON Hardware Repository](https://github.com/rprimas/ascon-verilog)
+- [Side-Channel and Fault Resistant ASCON Implementation: A Detailed Hardware Evaluation](https://ieeexplore.ieee.org/document/10682712)
+- [A Robust ASCON Cryptographic Coprocessor for Secure IoT Applications](https://ieeexplore.ieee.org/document/10497076)
+- [Lightweight and Secure Hardware Implementations — MDPI Electronics](https://www.mdpi.com/2079-9292/13/22/4550)
+- [Implementation of ASCON in C — Cihangir Tezcan (YouTube)](https://www.youtube.com/watch?v=RWiH_6UwzzY)
+- [ASCON — Tiny Titan of IoT Security (Sage Khan, Medium)](https://thesagekhan.medium.com/ascon-the-tiny-titan-of-iot-security-a-deep-technical-dive-8273ab4786b6)
+- [OpenTitan — ASCON Documentation](https://opentitan.org/book/hw/ip/ascon/index.html)
+- [OpenTitan — EarlGrey and Darjeeling Product Architectures](https://opentitan.org/book/doc/productarchitecture.html)
+- [Caliptra: A Datacenter SoC Root of Trust (RoT)](https://www.opencompute.org/documents/caliptra-silicon-rot-services-09012022-pdf)
+- IEEE SSCS PICO Chipathon 2026 Guidelines — Contest rules, area limits, padding template
