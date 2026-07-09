@@ -57,7 +57,7 @@ The design consists of three main blocks:
 Functional verification of the ASCON core Design Verification:
 Two independent testbench approaches were used to maximize stimulus coverage:
 
--** Directed Verilog TB**: 7 hard-coded test cases — empty AD/PT, short and multi-block AD/PT, full encrypt→decrypt roundtrip, and a tampered-tag case that must be rejected (auth_ok=0).
+- **Directed Verilog TB**: 7 hard-coded test cases — empty AD/PT, short and multi-block AD/PT, full encrypt→decrypt roundtrip, and a tampered-tag case that must be rejected (auth_ok=0).
 - **Cocotb TB + Python golden model**: 5 categories — known-answer tests, 16-byte block-boundary edges, authentication fault-injection, 50 randomized vectors (0–256B) sweeping key/nonce/AD/PT, and 20 randomized encrypt-then-decrypt roundtrips.
 - **NIST ACVP-based verification**: Following a suggestion from reviewer Luqman during the proposal review round, we incorporated NIST's Automated Cryptographic Validation Protocol (ACVP) vectors. Using the 1089 KATs from itzmeanjan/ascon, we re-ran verification against official NIST-based test vectors — all 1089 cases passed.
 - **Result**: 100% pass, 0 fails across all test cases above; the same Verilog testbench was later reused for post-synthesis GLS.
