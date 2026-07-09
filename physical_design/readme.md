@@ -33,6 +33,7 @@ counter_run
 ---
 
 ### Current Progress:
+`Note: Current progress is based on the design of ASCON core only.`
 #### RTL used: Non-Pipelined
 Once all of the files are setup, we moved to running the flow in Docker terminal:
 ` librelane config.yaml --pdk gf180mcuD --pdk-root /foss/pdks --manual-pdk
