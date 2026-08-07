@@ -19,8 +19,8 @@
 | Task | Target / Completion Date | Ownership | Status | Comments |
 | :--- | :--- | :--- | :--- | :--- |
 | ASCON Core Verification (Post-syn timing) | Jun 29, 2026 | Yash | ✅ Completed | - |
-| AXI-LITE Slave & Master (Post-syn timing) | TBD | Yash & Tarun |  ⏳ Pending  | - |
-| SPI Slave (Post-syn timing) | TBD | Yash & Tarun | ⏳ Pending | To be completed |
+| AXI-LITE Slave & Master (Post-syn timing) | TBD | Yash & Tarun |  ✅ Completed  | - |
+| SPI Slave (Post-syn timing) | TBD | Yash & Tarun | ✅ Completed | Completed |
 | Chip_top IO cell integration (Post-syn timing) | TBD | Lakshmi, Yash, Tarun | ⏳ Pending | To be completed |
 
 ## 4. Physical Design (LibreLane & ORFS)
