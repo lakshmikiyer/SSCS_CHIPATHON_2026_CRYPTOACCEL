@@ -4,6 +4,7 @@
 - Link to github issue: [Click Here ↗](https://github.com/sscs-ose/sscs-chipathon-2026/issues/44)
 - Link to proposal round presentation video: [Click Here ↗](https://youtu.be/4pfbP2isbxA?si=O9V1pwiTxTNE5hqo)
 - Link to schematic review round video: [Click Here ↗](https://drive.google.com/file/d/1Om1IALZSBtE1XGMmxLGU7RnFuSFpBlrm/view)
+- Link to layout review round video:[Click Here ↗](https://drive.google.com/file/d/1Z2raVcPt4EsP0nf7BELFfiN4O5xUtK46/view)
 - Link to progress tracker: [Click Here ↗](https://github.com/lakshmikiyer/SSCS_CHIPATHON_2026_CRYPTOACCEL/blob/main/Progress%20Tracker/readme.md)
 --- 
 <img width="2352" height="480" alt="cryptoaccel_logo" src="https://github.com/user-attachments/assets/9e05458b-7662-42a9-9287-e7aeeaf4b6a3" style="width:70%;" />
@@ -28,12 +29,15 @@ The accelerator is built in synthesizable Verilog and taken through a complete o
 ## Repository Structure
 
 ```
-├── Progress Tracker/       # Tracker for project progress
-├── Proposal/               # Project proposal documents
-├── docs/                   # Documentation and reports
-├── rtl_design_verif/       # RTL design and verification
-├── synthesis               # Synthesis and post-synthesis verification
-├── physical_design         # Physical design
+├── Progress Tracker/            # Tracker for project progress
+├── Proposal/                    # Project proposal documents
+├── docs/                        # Documentation and reports
+├── core_rtl_design_verif/       # Ascon core's RTL design and verification
+├── core_synthesis               # Ascon core's Synthesis and post-synthesis verification
+├── core_physical_design         # Ascon core's Physical design
+├── final_src_cryptoaccel        # final chip top design files, with all the peripherals
+├── gds_cryptoaccel              # final chip top gds file 
+├── librelane_cryptoaccel        # final chip top librelane run summary and files
 ├── LICENSE
 └── README.md
 ```
