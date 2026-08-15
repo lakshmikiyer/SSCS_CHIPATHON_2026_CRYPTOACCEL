@@ -21,7 +21,7 @@
 | ASCON Core Verification (Post-syn timing) | Jun 29, 2026 | Yash | ✅ Completed | - |
 | AXI-LITE Slave & Master (Post-syn timing) | TBD | Yash & Tarun |  ✅ Completed  | - |
 | SPI Slave (Post-syn timing) | TBD | Yash & Tarun | ✅ Completed | Completed |
-| Chip_top IO cell integration (Post-syn timing) | TBD | Lakshmi, Yash, Tarun | ⏳ Pending | To be completed |
+| Chip_top IO cell integration (Post-syn timing) | Aug 8, 2026 | Lakshmi | ✅ Completed  | - |
 
 ## 4. Physical Design (LibreLane & ORFS)
 | Task | Target / Completion Date | Ownership | Status | Comments |
@@ -30,7 +30,7 @@
 | LibreLane Setup & Prototyping | July 12, 2026 | Yash |  ✅ Completed  | PD For core |
 | Chip_top IO cell integration (PNR flow) | Aug 2, 2026 | Lakshmi, Yash, Tarun|  ✅ Completed  | Full Chip PD |
 | Chip_top Final (DRC & LVS Check) | Aug 8, 2026  | Lakshmi, Yash |  ✅ Completed  | To be completed |
-| Padring Integration | Aug 14, 2026 | Lakshmi |  ✅ Completed | |
+| Padring Integration | Aug 14, 2026 | Lakshmi |  ✅ Completed | - |
 
 ## 5. Documentation & Presentations
 | Task | Target / Completion Date | Ownership | Status | Comments |
