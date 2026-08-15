@@ -26,10 +26,11 @@
 ## 4. Physical Design (LibreLane & ORFS)
 | Task | Target / Completion Date | Ownership | Status | Comments |
 | :--- | :--- | :--- | :--- | :--- |
-| ORFS Setup & Initial Prototyping | started Jun 16, 2026 | Tarun & Yash | 🔄 In Progress | Setup done, prototyping started |
-| LibreLane Setup & Prototyping | started Jun 27, 2026 | Yash | 🔄 In Progress | Setup done, prototyping started |
-| Chip_top IO cell integration (PNR flow) | TBD | Lakshmi, Yash, Tarun | ⏳ Pending | To be completed |
-| Chip_top Final (DRC & LVS Check) | TBD | Lakshmi, Yash, Tarun | ⏳ Pending | To be completed |
+| ORFS Setup & Initial Prototyping | started Jun 16, 2026 | Tarun | ⚠️ Aborted | adopted Librelane flow |
+| LibreLane Setup & Prototyping | July 12, 2026 | Yash |  ✅ Completed  | PD For core |
+| Chip_top IO cell integration (PNR flow) | Aug 2, 2026 | Lakshmi, Yash, Tarun|  ✅ Completed  | Full Chip PD |
+| Chip_top Final (DRC & LVS Check) | Aug 8, 2026  | Lakshmi, Yash |  ✅ Completed  | To be completed |
+| Padring Integration | Aug 14, 2026 | Lakshmi |  ✅ Completed | |
 
 ## 5. Documentation & Presentations
 | Task | Target / Completion Date | Ownership | Status | Comments |
@@ -37,3 +38,5 @@
 | Proposal Documentation | Jun 2, 2026 | Yash & Lakshmi | ✅ Completed | - |
 | Proposal Live Presentation | Jun 11, 2026 | Lakshmi | ✅ Completed | Presented on June 12 |
 | Schematic Round Review (PPT + Video) | Jul 4, 2026 | Lakshmi | ✅ Completed | Submitted |
+| Layout Review Round ( PPT + Video + Docs) | Aug 10, 2026 | Lakshmi, Yash | ✅ Completed | Submitted |
+
